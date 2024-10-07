@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "GTLib",
+    "slug": "GTLib",
+    "privacy": "public",
+    "description": "An educational mobile app.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/GTLib-Icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/GTLib-Splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#123C5F"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.GTLib.GTLib"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/GTLib-Icon.png",
+        "backgroundColor": "#123C5F"
+      },
+      "permissions": [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.DOWNLOAD_WITHOUT_NOTIFICATION",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "package": "com.nana_asenso.GTLib"
+    },
+    "web": {
+      "favicon": "./assets/images/GTLib-Icon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "@config-plugins/react-native-blob-util",
+      "@config-plugins/react-native-pdf"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "cdd657a7-5c20-41f4-b9ee-57a6a6c5b16f"
+      }
+    },
+    "owner": "nana_asenso",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/cdd657a7-5c20-41f4-b9ee-57a6a6c5b16f"
+    }
+  }
+}
